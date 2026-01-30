@@ -3531,6 +3531,37 @@ input[type="button"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%; }
 
+  @media (max-width: 767.98px) {
+  .top-wrap {
+    display: none !important;
+  }
+}
+
+  @media (max-width: 767.98px) {
+  /* Hide address & phone on mobile */
+  .col-md-7 {
+    display: none !important;
+  }
+
+  /* Make logo and social icons inline in the same row */
+  .wrap .row.justify-content-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Make social icons stay on the right */
+  .social-media {
+    order: 2; /* ensures right side */
+  }
+
+  .navbar-brand {
+    order: 1; /* ensures left side */
+  }
+}
+
+
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -10182,6 +10213,59 @@ textarea.form-control {
   padding: 5px 10px;
   border-radius: 20px;
 }
+
+
+.service-card img {
+  width: 100%;
+  height: 200px; /* or adjust as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 575.98px) {
+  .zac-services {
+    padding: 40px 15px; /* less padding for mobile */
+  }
+
+  .section-title h2 {
+    font-size: 18px;  /* smaller heading */
+    margin-bottom: 10px;
+  }
+
+  .section-title span {
+    font-size: 12px; /* smaller subheading */
+  }
+
+  .service-card {
+    padding: 15px;  /* smaller padding */
+    margin-bottom: 15px;
+  }
+
+  .service-card img {
+    height: 120px; /* smaller image */
+  }
+
+  .service-card h4 {
+    font-size: 16px; /* smaller service title */
+  }
+
+  .service-card p,
+  .service-card ul li,
+  .service-card h5,
+  .service-card .tag {
+    font-size: 12px; /* smaller text for mobile */
+  }
+
+  .service-card .tag {
+    padding: 3px 6px; /* smaller tag */
+    border-radius: 15px;
+  }
+}
+
+
 
 .why-zac {
   padding: 80px 0;
