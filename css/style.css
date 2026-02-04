@@ -472,7 +472,8 @@ pre {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -35px;
-  margin-left: -5px; }
+  margin-left: -5px;
+  margin-top:10px; }
 
 .no-gutters {
   margin-right: 0;
@@ -3537,7 +3538,7 @@ input[type="button"].btn-block {
 .navbar-brand img.logo-img {
   height: 100px;        /* adjust as needed */
   width: auto;
-  display: block;
+  display:flex;
 }
 
 
@@ -8054,10 +8055,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #f79f24; }
+  color: #fa0000; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #f79f24;
+    color: #fa0000;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8068,7 +8069,7 @@ h1, h2, h3, h4, h5,
 
 .wrap {
   background: #fff;
-  padding: 25px 0; }
+  padding: 10px 0; }
   .wrap .top-wrap {
     font-size: 12px; }
     .wrap .top-wrap .icon {
@@ -8120,7 +8121,7 @@ h1, h2, h3, h4, h5,
       height: 100%;
       bottom: 0;
       left: 0;
-      background-color: #f79f24;
+      background-color: #fa0000;
       visibility: hidden;
       -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
@@ -8130,10 +8131,10 @@ h1, h2, h3, h4, h5,
       transition: all 0.2s ease-in-out 0s;
       z-index: -1; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #000000; }
+      color: #ffffff; }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
         visibility: visible;
-        background-color: #f79f24;
+        background-color: #fa0000;
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); }
@@ -8216,12 +8217,13 @@ h1, h2, h3, h4, h5,
     color: #000000; }
 
 .social-media {
-  display: inline-block; }
+  display: inline-block;
+margin-left: 20px; }
   .social-media p a {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin-right: 4px;
+    margin-right: 6px;
     background: #000; }
     .social-media p a span {
       color: white; }
@@ -8335,9 +8337,9 @@ h1, h2, h3, h4, h5,
       .hero-wrap .slider-text .breadcrumbs span a {
         color: rgba(255, 255, 255, 0.7); }
         .hero-wrap .slider-text .breadcrumbs span a:hover, .hero-wrap .slider-text .breadcrumbs span a:focus {
-          color: #f79f24; }
+          color: #fa0000; }
           .hero-wrap .slider-text .breadcrumbs span a:hover i, .hero-wrap .slider-text .breadcrumbs span a:focus i {
-            color: #f79f24; }
+            color: #fa0000; }
 
 .owl-carousel {
   position: relative; }
@@ -8825,7 +8827,7 @@ h1, h2, h3, h4, h5,
       line-height: 1;
       font-weight: 700;
       font-size: 38px;
-      color: #f79f24;
+      color: #fa0000;
       display: block;
       margin-bottom: 10px; }
     .ftco-counter .text span {
@@ -9187,9 +9189,9 @@ textarea.form-control {
     .footer .ftco-footer-widget ul li a span {
       color: #fff; }
     .footer .ftco-footer-widget ul li a:hover {
-      color: #f79f24; }
+      color: #fa0000; }
       .footer .ftco-footer-widget ul li a:hover span {
-        color: #f79f24; }
+        color: #fa0000; }
   .footer .ftco-footer-widget .btn-primary {
     background: #fff !important;
     border: 2px solid #fff !important; }
@@ -9395,7 +9397,7 @@ textarea.form-control {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #f79f24; }
+    background: #fa0000; }
     .testimony-wrap .icon span {
       color: #fff; }
   .testimony-wrap .user-img {
@@ -9480,7 +9482,7 @@ textarea.form-control {
     .blog-entry .text .heading a {
       color: #000000; }
       .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-        color: #f79f24; }
+        color: #fa0000; }
 
 .blog-entry .btn-custom {
   font-size: 12px;
@@ -9586,7 +9588,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #000000; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #f79f24; }
+        color: #fa0000; }
   .block-21 .text .meta > div {
     display: inline-block;
     font-size: 12px;
@@ -9719,7 +9721,7 @@ textarea.form-control {
       font-size: 12px; }
     .categories li a:hover, .categories li a:focus, .sidelink li a:hover, .sidelink li a:focus {
       outline: none;
-      color: #f79f24; }
+      color: #fa0000; }
   .categories li.active a, .sidelink li.active a {
     color: #f79f24; }
     .categories li.active a span, .sidelink li.active a span {
@@ -9995,7 +9997,7 @@ textarea.form-control {
 }
 
 .contact-info-sections .intro h2 {
-  color: var(--steel-blue);
+  color: #000;
 }
 
 /* -------------------------------- */
@@ -10006,13 +10008,13 @@ textarea.form-control {
 }
 
 .contact-info-sections .light h3 {
-  color: var(--soft-amber);
+  color: #000;
 }
 
 /* Address card */
 .contact-info-sections .address {
   background: #fff;
-  border-left: 4px solid var(--soft-amber);
+  border-left: 4px solid #fa0000;
   padding: 18px 20px;
   border-radius: 10px;
   box-shadow: var(--shadow-soft);
@@ -10025,7 +10027,9 @@ textarea.form-control {
   background: linear-gradient(135deg, #1f2933, #2b3642);
 }
 
-.contact-info-sections .dark h3,
+.contact-info-sections .dark h3{
+  color: #fa0000;
+}
 .contact-info-sections .dark p,
 .contact-info-sections .dark small {
   color: #eaeaea;
@@ -10039,7 +10043,7 @@ textarea.form-control {
 }
 
 .contact-info-sections .image-left h3 {
-  color: var(--cool-slate);
+  color: #000;
 }
 
 /* -------------------------------- */
@@ -10065,7 +10069,7 @@ textarea.form-control {
   font-family: FontAwesome;
   position: absolute;
   left: 0;
-  color: var(--soft-amber);
+  color: #fa0000;
 }
 
 .contact-info-sections .check-list li::before {
@@ -10073,26 +10077,33 @@ textarea.form-control {
   font-family: FontAwesome;
   position: absolute;
   left: 0;
-  color: var(--olive-accent);
+  color: #fa0000;
 }
 
 /* -------------------------------- */
 /* CARDS – Interactive & Clean      */
 /* -------------------------------- */
+/* Parent container */
 .contact-info-sections .cards {
-  background: #fff;
+  display: flex;
+  flex-direction: column;   /* one below another */
+  align-items: stretch;    /* all cards same width */
+  gap: 15px;               /* equal space between cards */
 }
 
+/* Card */
 .contact-info-sections .info-card {
+  width: 80%;             /* full line */
   background: #fff;
-  padding: 28px 20px;
+  padding: 25px 5px;
   border-radius: 14px;
   text-align: center;
   box-shadow: var(--shadow-soft);
-  transition: all 0.35s ease;
   position: relative;
+  transition: all 0.35s ease;
 }
 
+/* Hover underline */
 .contact-info-sections .info-card::after {
   content: "";
   position: absolute;
@@ -10100,17 +10111,19 @@ textarea.form-control {
   left: 0;
   height: 4px;
   width: 0;
-  background: var(--steel-blue);
+  background: #fa0000;
   transition: width 0.4s ease;
 }
 
+/* Hover effect */
 .contact-info-sections .info-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
 }
 
 .contact-info-sections .info-card:hover::after {
   width: 100%;
 }
+
 
 /* -------------------------------- */
 /* HIGHLIGHT – Warm Assurance       */
@@ -10121,7 +10134,7 @@ textarea.form-control {
 }
 
 .contact-info-sections .highlight h3 {
-  color: var(--olive-accent);
+  color: #000;
 }
 
 /* -------------------------------- */
@@ -10131,7 +10144,9 @@ textarea.form-control {
   background: linear-gradient(135deg, var(--steel-blue), #516b9a);
 }
 
-.contact-info-sections .final-cta h2,
+.contact-info-sections .final-cta h2{
+  color: #fff;
+}
 .contact-info-sections .final-cta p {
   color: #fff;
 }
@@ -10177,7 +10192,7 @@ textarea.form-control {
 ================================ */
 
 .section-title span {
-  color: #f79f24;
+  color: #fa0000;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -10218,9 +10233,10 @@ textarea.form-control {
 .service-card .tag {
   display: inline-block;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight:600px;
   color: #fff;
-  background: #f79f24;
+  background: #fa0000;
   padding: 5px 10px;
   border-radius: 20px;
 }
@@ -10295,21 +10311,21 @@ textarea.form-control {
 
 .location-section {
   background: linear-gradient(135deg, #111, #333);
-  color: #fff;
+  color: #000;
   padding: 60px 0;
 }
 .location-section h2,h3 {
-  color: #fff;
+  color: #000;
   font-weight: 600;
 }
 
 .location-section .highlight {
-  color: #f96d00;
+  color: #fa0000;
   font-weight: 600;
 }
 
 .cta-section {
-  background: #f96d00;
+  background: #fa0000;
   color: #fff;
   padding: 70px 0;
 }
